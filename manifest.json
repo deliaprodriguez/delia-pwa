@@ -1,7 +1,7 @@
 {
     "name": "Happy Click",
     "description": "Happy Click PWA by Delia",
-    "short_name": "H:)C",
+    "short_name": "Happy Click",
     "theme_color": "#ffffff",
     "background_color": "#082147",
     "display": "standalone",
