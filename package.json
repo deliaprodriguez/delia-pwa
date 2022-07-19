@@ -1,0 +1,33 @@
+{
+  "name": "delia-pwa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "clean": "rm dist/bundle.js",
+    "build-dev": "webpack --mode development",
+    "build-prod": "webpack --mode production",
+    "test": "jest",
+    "start": "npx http-server -a localhost"
+  },
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "jquery": "^3.6.0",
+    "popper.js": "^1.16.1",
+    "moment": "^2.29.4"
+  },
+  "devDependencies": {
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.10.0",
+    "css-loader": "^6.7.1",
+    "style-loader": "^3.3.1",
+    "eslint": "^8.19.0",
+    "jest": "^28.1.3",
+    "file-loader": "^6.2.0",
+    "url-loader": "^4.1.1",
+    "prettier": "^2.7.1"
+  }
+}

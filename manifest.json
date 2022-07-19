@@ -1,0 +1,17 @@
+{
+    "name": "Happy Click",
+    "description": "Happy Click PWA by Delia",
+    "short_name": "H:)C",
+    "theme_color": "#ffffff",
+    "background_color": "#082147",
+    "display": "standalone",
+    "orientation": "portrait",
+    "start_url": "./",
+    "icons": [
+        {
+            "src": "src/images/logoPWA.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ]
+}

@@ -1,0 +1,110 @@
+body {
+  background-color: white;
+  color: #082147;
+}
+
+button img {
+  margin-left: 0.5rem;
+}
+
+img {
+  width: 23px;
+  height: 23px;
+}
+
+p,
+#scoreValue {
+  color: #082147;
+  font-size: x-large;
+  margin: 0px;
+}
+
+.btn-primary:active {
+  transform: translateY(3px);
+}
+
+#autoClickButton {
+  margin: 5%;
+}
+
+#autoClickDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: large !important;
+  background: linear-gradient(to right, #1a72b8, #ffffff);
+}
+
+#autoClickDiv * {
+  margin: 0.5rem;
+  font-size: x-large;
+}
+
+#autoClickDiv img {
+  margin: 0px !important;
+  width: 35px !important;
+  height: 40px !important;
+}
+
+#buttons-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10%;
+}
+
+#gameContent {
+  height: calc(100vh - 50px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#gameContent button {
+  box-shadow: 3px 3px rgba(0, 0, 0, 0.5);
+  max-width: 250px;
+  width: 100%;
+  background-color: #1a72b8 !important;
+  border-color: #1a72b8 !important;
+}
+
+#gameContent,
+#header {
+  text-align: center;
+}
+
+#header {
+  background-color: #082147 !important;
+  display: flex;
+  height: 50px;
+}
+
+#header p {
+  color: white !important;
+  font-size: large;
+  margin: auto !important;
+}
+
+#logoutButton {
+  position: absolute;
+  right: 0;
+}
+
+#rankingButton {
+  position: absolute;
+  left: 0;
+}
+
+#scoreValue {
+  margin: 1rem;
+}
+
+@media (min-width: 992px) {
+  #buttons-div {
+    margin: 5%;
+  }
+  #gameContent button {
+    margin: 1%;
+  }
+}

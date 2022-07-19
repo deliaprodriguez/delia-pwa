@@ -1,0 +1,48 @@
+body {
+  background-color: white;
+  color: #082147;
+}
+
+img {
+  width: 20px;
+  height: 20px;
+}
+
+li {
+  margin-top: 10%;
+  border-bottom: 1px solid transparent;
+  border-image: linear-gradient(to right, #1a72b8 0%, #ffffff 100%) 1;
+}
+
+ol {
+  padding: 0px;
+}
+
+ol img {
+  position: absolute;
+  margin: 3px;
+}
+
+#backButton {
+  position: absolute;
+  left: 0;
+}
+
+#header {
+  background-color: #082147 !important;
+  display: flex;
+  height: 50px;
+  text-align: center;
+}
+
+#header p {
+  color: white !important;
+  font-size: large;
+  margin: auto !important;
+}
+
+#rankingContent {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
